@@ -1,0 +1,49 @@
+﻿/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    height: 100px;
+    background-color: #1d1d1d;
+}
+
+footer {
+    height: 50px;
+    background-color: #1d1d1d;
+}
+
+main {
+    height: calc(100% - 150px);
+    overflow-y: scroll;
+    background-image: url(/img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main::-webkit-scrollbar {
+    display: none;
+}
+
+li {
+    margin: 0 1rem;
+}
+
+small {
+    letter-spacing: .2rem;
+}
+
+
+/* MEDIA QUERY */
+@media(min-width:768px) {
+    .navbar-nav {
+        margin-left: -120px;
+    }
+}
