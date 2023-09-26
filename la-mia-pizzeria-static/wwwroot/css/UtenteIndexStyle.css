@@ -32,8 +32,20 @@ main::-webkit-scrollbar {
     display: none;
 }
 
-li {
-    margin: 0 1rem;
+.nav-item {
+    padding: 1rem;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-item:hover .nav-link {
+    color: #f3a446;
+}
+
+h1 {
+    color: #f3a446;
 }
 
 .card img {
