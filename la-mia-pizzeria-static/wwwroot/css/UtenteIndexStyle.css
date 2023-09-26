@@ -36,7 +36,11 @@ li {
     margin: 0 1rem;
 }
 
-small {
+.card img {
+    aspect-ratio: 4 / 3;
+}
+
+footer small {
     letter-spacing: .2rem;
 }
 
